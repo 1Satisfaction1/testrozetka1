@@ -18,13 +18,14 @@ public class RozetkaPage extends PageObject implements ILocators{
     }
     public void clickOnIphoneXs() {
         $(CLICK_ON_IPHONE_XS).click();
+        getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
-    public void clickOnTheSilverCircle(){
+    public void clickOnTheGoldCircle(){
         $(CLICK_ON_THE_GOLD_COLOR).click();
         getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
     public void clickOnTheReturnSpaceGrayColor(){
-        $(CHANGE_COLOR_TO_SPACEGREY).click();
+        $(CHANGE_COLOR_TO_SPACE_GREY).click();
         getDriver().manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
     }
     public void clickOnBasketButton(){

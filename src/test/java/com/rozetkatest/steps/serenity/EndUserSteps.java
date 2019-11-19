@@ -24,8 +24,8 @@ public class EndUserSteps {
         rozetkaPage.clickOnIphoneXs();
     }
     @Step
-    public void clickOnTheGreyCircle(){
-        rozetkaPage.clickOnTheSilverCircle();
+    public void clickOnTheGoldCircle(){
+        rozetkaPage.clickOnTheGoldCircle();
     }
     @Step
     public void clickOnTheReturnSpaceGray(){

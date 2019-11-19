@@ -23,7 +23,7 @@ public class AddToTheBasketSteps {
     public void theUserChooseByNameIphoneXs() { bil.clickOnIphoneXs(); }
     @And("^the user click on the gold circle in any iphone$")
     public void theUserClickOnTheGoldCircleInAnyIphone(){
-        bil.clickOnTheGreyCircle();}
+        bil.clickOnTheGoldCircle();}
     @And("^the user return space gray color$")
     public void theUserReturnSpaceGrayColor(){
         bil.clickOnTheReturnSpaceGray(); }
