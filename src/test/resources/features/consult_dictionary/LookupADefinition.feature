@@ -1,6 +1,6 @@
 Feature: Change color of thing and add in basket
 
-  Scenario: add Iphone in the basket
+  Scenario: add Iphone in the basket1
     Given the user is on the Rozetka home page
     When  the user looks for a thing by name 'iphone xs'
     And  the user choose by name iphone xs
