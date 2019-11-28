@@ -8,3 +8,6 @@ Feature: Change color of thing and add at the basket
     And  the user return space gray color
     And the user click on basket button
     Then the user check button 'Оформить заказ' is visible
+
+
+
