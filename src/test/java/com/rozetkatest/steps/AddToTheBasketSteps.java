@@ -1,6 +1,4 @@
 package com.rozetkatest.steps;
-
-import com.rozetkatest.pages.Link;
 import com.rozetkatest.pages.RozetkaPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
